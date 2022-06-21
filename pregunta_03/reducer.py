@@ -31,4 +31,4 @@ if __name__ == '__main__':
     orden.sort(key=takeSecond)
 
     for line in orden:
-        sys.stdout.write("{}\t{}\n".format(line[0], line[1]))
+        sys.stdout.write("{},{}\n".format(line[0], line[1]))
