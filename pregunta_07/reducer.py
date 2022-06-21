@@ -27,4 +27,4 @@ if __name__ == '__main__':
     orden = sorted(orden, key=operator.itemgetter(0, 2))
 
     for line in orden:
-        sys.stdout.write("{}\t{}\t{}\n".format(line[0], line[1], line[2]))
+        sys.stdout.write("{}   {}   {}\n".format(line[0], line[1], line[2]))
