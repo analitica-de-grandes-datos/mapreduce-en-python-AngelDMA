@@ -20,5 +20,5 @@ if __name__ == "__main__":
         #
         # escribe al flujo estandar de salida
         #
-        sys.stdout.write("{}\t{}\n".format(
+        sys.stdout.write("{}\t{}".format(
             line.split(',')[0], line.split(',')[1]))
